@@ -1,0 +1,101 @@
+.col-md-6 {
+	width: auto;
+	margin-top: 10px;
+	padding: 20px 0px 0px 20px;
+	height: 300px;
+	border: none; 
+}
+.col-md-6 img {
+	display: block;
+	width: 400px;
+	height: 400px;
+	width: 100%;
+	max-height: 100%;
+}
+.col-md-12 {
+	text-align: center;
+	border: none;
+	margin-top: 10px;
+	width: auto;
+	height: 30px;
+}
+.col-md-6 h4, h2, .btn {
+	margin-left: 30px;
+}
+.col-md-12 img {
+	width: 400px;
+	height: 30px;
+	display: block;
+}
+.col-md-5 {
+	max-height: 400px;
+	height: auto;
+	border: none;
+}
+.col-md-5 img {
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 200px;
+	max-height: 200px;
+	height:auto;
+	max-width: 100% 
+}
+.col-md-5 h3 {
+	padding-top: 40px; 
+}
+.banner {
+	width: 100%;
+	height: 100px; 
+}
+.banner img {
+	width: auto;
+	max-width: 100%
+	height: 100%
+	max-height: 100px;
+}
+
+.footer {
+	width: 100%;
+	border: 0.5px solid black;
+	height: auto;
+	max-height: 200px;
+	background-image: url('strip.svg'); 
+}
+
+.res {
+	width: 100%;
+	max-height:500px;
+	height: auto; 	
+}
+.vert-div {
+	width: 40%;
+	max-height: 300px;
+	height: auto;
+	border: 0.5px solid black;
+	margin-left: 30px;
+	float: left;
+}
+.footer-image-container {
+  position: absolute;
+  width: 99% ;
+  height: 300px;
+  margin:0px;
+  background-image: url('C:\Users\Shashank Kr Mishra\Desktop\Dashboard Project\assests\strip.svg'); 
+  }
+.footer-image-container h3 {
+	text-align: center;
+}
+.footer-image {
+  position: absolute;
+  width: 100% ;
+  height: 300px ;
+  bottom: 0;
+  z-index: -1;
+}
+.row img {
+	width: 100%;
+	height: 30%;
+	padding-bottom: 10px;
+}
+
+

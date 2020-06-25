@@ -1,0 +1,843 @@
+/*************CSS for Schedule.html begins from here**************/
+
+.nav-menu-icon {
+	float: left;
+	width: 50px;
+}
+.nav-menu-text {
+	width: auto;
+	float: left;
+}
+.col-md-9 input {
+	width: 250px;
+	margin: 50px 0px 20px 10px;
+	text-align: center;
+}
+.col-md-9 input[type=text] {
+ 	text-align: left;
+  	padding: 6px;
+  	border: none;
+  	background-color: #E0dddd;
+  	border-radius: 20px;
+  	margin: 35px 0px 0px 25px;
+  	font-size: 17px;
+}
+.box {
+	width: 100%;
+	width: auto;
+	height: 100%;
+	max-height: 100%;
+	background-color: aliceblue;
+	border-radius: 15px;
+	/*border:1px solid black;*/
+	margin-top: 0px;
+}
+.box h3 {
+	margin-left: 100px;
+}
+.img-envelop {
+	width: 150px;
+	max-width: auto;
+	height: 120px;
+	max-height: auto;
+	margin-left: 30px;
+	background-color: #C9ffe5;
+	border-radius: 15px; 
+
+}
+.img-envelop img {
+	margin-top: 10px;
+	margin-left: 25px;
+	height: 90px;
+}
+.col-md-2 .img-envelop-text {
+	margin-left: 40px;
+	text-align: center;
+}
+.schedule-btn {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 0px;
+}
+.data h5 {
+	margin-left: 30px;
+	color:#6495ed;
+}
+.schedule-head .schedule-head-img {
+	float: left;
+	margin: 10px 5px 0px 25px;
+}
+.schedule-head .schedule-head-h2 h2 {
+	float: left;
+
+}
+.dropdown {
+	float: right;
+	margin: 20px 30px 0px 0px;
+}
+
+/******************CSS for Schedule.html ends here******************/
+/*****************CSS for side-nav.html begins here*******************/
+.sidenav {
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: aliceblue;
+  overflow-x: hidden;
+  padding: 25px;
+  border-radius: 10px;
+}
+.sidebar .logo-box {
+	width: 95%;
+}
+.sidenav .logo-box img {
+	height: 60px;
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+.sidenav a {
+  padding: 16px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+.sidenav a h4 {
+	margin-left: 10px
+}
+.sidenav a:hover {
+  color: #0073cf;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.group-img {
+	width: 95%;
+	margin-top: 280px;
+}
+.group-img img {
+	width: 100%;
+}
+.report {
+	box-sizing: border-box;
+	max-width:80%;
+	width: auto;
+	max-height: 100%;
+	height: auto;
+	background-color: #E0ffff;
+}
+/********************CSS for side-nav bar ends  here***************************/
+/*********************CSS for Head-nav begins here*********************************/
+
+
+
+
+/*******************report.html begins here****************************/
+
+.rep-box {
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	background-color: #E0ffff;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+.rep-box .row h3 {
+	margin-left: 30px;
+  float: left;
+}
+.rep-box h4 {
+  margin: 30px 0px 0px 40px;
+}
+.logo-box img {
+  width: auto;
+}
+.d-btn {
+  margin-top: 40px;
+  float: right;
+  margin-right: 30px;
+  padding: 5px;
+}
+.dd-btn {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.row .dropdown .dropdown-menu li  {
+	font-size: 12px;
+	background-color: none;
+}
+.disease-btn {
+  width: 92%;
+  border-radius: 10px; 
+  color: white;  
+  cursor: pointer; 
+  margin: 25px 0px 0px 30px; 
+}
+.disease-btn .btn {
+  width: 120px;
+}
+.med-box {
+  float: none !important;
+  display: inline-block !important;
+  margin-left: 30px;
+  max-width: 200px;
+  width: auto;
+}
+.med-box a {
+  height: 140px;
+  background: #E0dddd;
+  border-radius: 15px;
+  display: block;
+  margin-top: 10px;
+  padding: 10px
+}
+.med-box a h5 {
+	text-align: center;
+	cursor: pointer;
+}
+.med-box a img {
+	width: 100px;
+	height: 100px;
+}
+/*****************CSS for transaction.html begins from here*******************/
+.t-head{
+	margin: 30px;
+}
+.t-year {
+	float: right;
+	margin: 5px 30px 5px 0px;
+	width: 90px;
+	border-radius: 5px;
+	background-color: #E0eeee;
+}
+.t-cat {
+	float: right;
+}
+.page-panel {
+  text-align: center;
+}
+.pagination>li>a, .pagination>li>span { 
+	border-radius: 50% !important;
+	margin: 0 5px;
+}
+.transaction-panel .panel  {
+	background-color: aliceblue;
+	border: none;
+	border-bottom: 0.1px solid black;
+}
+.panel-title {
+	margin-top: 20px;
+}
+.panel-title a {
+	font-size: 20px;
+	color: black;
+}
+.transaction-panel {
+	width: 90%;
+	border: none;
+	background-color: #E0ffff;
+}
+.panel-transaction-icon {
+	width: 80px;
+	float: left;
+	margin: 10px 0px 5px 50px;
+	height: 80px;
+}
+.row-panel-transaction {
+	width: 90%;
+}
+.panel-heading .panel-title {
+	width: 150px;
+	float: left;
+}
+.row-panel-transaction .transaction-amount {
+	width: 100px;
+	float: right;
+}
+.row-panel-transaction .transaction-time {
+	float: right;
+}
+.box .t-head a {
+	font-size: 24px;
+	margin-left: 10px;
+}
+/*****************CSS for dashboard.html begins from here*********************/
+.yr-life {
+	max-height:350px;
+	max-width: 100%;
+	margin: 8px 0px 15px 0px;
+    height: auto;
+	background-color: #E0ffff;
+	border-radius: 15px;
+}
+.yr-life h3 {
+  text-align: center;
+  margin: 0px;
+}
+.disease-money {
+	max-width: 100%;
+	max-height: 500px;
+	height: auto;
+	margin-bottom: 5px;
+	background-color: #E0ffff;
+  	background-image: url("C:\Users\Shashank Kr Mishra\Desktop\hc2\icons\dashboard\pills-1.svg");
+  	background-image: url("pills-1.svg");
+	border-radius: 15px;
+}
+.disease-money h4 {
+	text-align: center;
+	margin-top:30px;
+}
+.d-button {
+  margin:5px 0px 0px 25px;
+  float: left;
+  width:100px;
+  color: white;
+  padding: 12px; 
+  border-radius: 10px;
+  background-color: #0492C2;
+}
+.disease-money-list {
+	float: left;
+	font-size: 18px;
+	margin-left: 10px;
+}
+.row-inline-icons .d-button {
+  margin:5px 0px 0px 45px;
+  width:100px;
+  color: white;
+  padding: 12px; 
+  border-radius: 10px;
+  background-color: #0492C2;
+}
+.row li {
+  float: right;
+  display: block;
+  color: black;
+  font-size: 12px;
+  background-color: #E0eeee;
+  text-align: center;
+  margin: 5px 5px 0px 0px;
+  border-radius: 10px;
+  padding: 8px;
+  text-decoration: none;
+}
+.list-icon-type-li {
+	float: left;
+	margin-left: 10px;
+	width: 66%;
+	border-radius: 10px;
+	background-color: #E0dddd;
+}
+.list-dash-sm img {
+	float: left;
+	margin-left: 20px;
+	height: 36px;
+}
+.list-dash-sm .dash-med-icon {
+	width: 33%;
+	float: left;
+	border-right: 1px solid black
+}
+/*list-dash-md img {
+	float: left;
+}
+.list-dash-r {
+	float: right;
+}*/
+ .tenure-list-duration {
+	width: 55%;
+	float: left;
+	background-color: #E0ffff;
+}
+.disease-money-icon {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  padding: 10px 0px 10px 0px;
+  margin:0px 0px 15px 0px;
+  background-color: #E0ffff;
+  background-image: url("C:\Users\Shashank Kr Mishra\Desktop\hc2\icons\dashboard\pills-1.svg");
+  background-image: url("pills-1.svg");
+  border-radius: 15px;
+}
+.disease-duration {
+  max-width:100%;
+  max-height: 450px;
+  margin: 15px 0px 5px 0px;
+  background-color: #E0ffff; 
+  border-radius: 15px;
+}
+.disease-duration h4 {
+	text-align: center;
+	margin-top: 10px;
+}
+.disease-money-icon h4 {
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+}
+.pie-chart {
+  background-color: #E0ffff;
+  border-radius: 15px;
+  margin: 15px 0px 5px 0px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.pie-chart-bot {
+	height: 50px;
+}
+.pie-chart .pie-chart-bot img {
+	float: right;
+	margin-right: 50px;
+	height: 50px;
+	width: 50px;
+}
+.pie-chart h4 {
+	margin-left: 30px;
+}
+.pie-chart img {
+  text-align: center; 
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+}
+.view {
+	float: right;
+	margin: 10px 25px 5px 0px; 
+}
+.do-you-know {
+	width: 100%;
+	max-height: 300px;
+	height: auto;
+	margin-bottom: 5px;
+	border-radius: 15px;
+	background-color: #E0ffff;
+}
+.do-you-know h4 {
+	margin-left: 20px;
+}
+.do-you-know-h4 {
+	float: left;
+	margin: 25px 0px 0px 20px;
+}
+.do-you-know-img {
+	float: right;
+	margin: 10px 30px 0px 0px
+}
+.do-you-know img {
+	float: right;
+	margin-right: 10px;
+}
+.do-you-know p {
+	margin: 20px;
+}
+.health-score {
+	background-color: #E0ffff;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+.health-score img {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.row-img-1 {
+	float: left;
+	margin: 10px 0px 0px 30px;
+	width: 50px;
+}
+.row-img-2 {
+	float: right;
+	width: auto;
+	margin-right: 30px;
+}
+.smallest-icons {
+	background-color: #123;
+	width: 65%;
+}
+.smallest-icons-1, .smallest-icons-2, .smallest-icons-3{
+	width: 33%;
+}
+.smallest-icons-1 img {
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.smallest-icons-2 img {
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.smallest-icons-3 img {
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+.row-inline-icons {
+	width: 95%;
+}
+/*****************************CSS for integrated spend begins from here*****************************/
+
+.my-expense {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	background-color: #E0ffff;
+}
+.my-expense img {
+	text-align: center; 
+  	margin-left: 100px;
+  	width: 200px;
+  	height: 200px;
+}
+.icon-ispend {
+	float: left;
+}
+.my-expense .icon-ispend img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 20px 5px 0px 20px;
+}
+.my-expense .pie-img img{
+	margin-bottom: 20px;
+}
+.monthly-expense .icon-ispend img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+}  
+
+.ispend-h4 {
+	text-align: left;
+	font-size: 20px;
+	margin-top: 25px;
+}
+.ispend-dropdown {
+	float: right;
+}
+.ongoing-cost {
+	width: 100%;
+	border-radius: 15px;
+	margin-top: 20px;
+	background-color: #E0ffff;
+}
+.ongoing-cost .mid {
+	width: 100px;
+	margin-left: 50px;
+	float: left;
+}
+.ongoing-cost .mid h3 {
+	margin: 20px 0px 0px 5px;
+}
+.ongoing-cost .mid h5 {
+	margin-top: 0px;
+}
+.monthly-expense {
+	width: 100%;
+	height: auto;
+	background-color: #E0ffff;
+	border-radius: 15px;
+}
+.monthly-expense .i-bar-graph img {
+	margin-bottom: 20px;
+}
+.monthly-expense h5 {
+	text-align: center;
+}
+.ongoing-cost .ongoing-cost-img img {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 25px 0px 0px 50px;
+}
+.ongoing-cost .ongoing-img {
+	float: right;
+	margin: 15px 20px 10px 0px;
+}
+
+/*************************CSS for upload.html begins from here*****************************************************/
+.navbar-xs-list-1 {
+	width: 60px;
+	margin: 10px 0px 0px 35px;
+	float: left;
+}
+.navbar-xs-list-2 {
+	width: 60px;
+	text-align: center;
+	margin: 10px 0px 0px 20px;
+	float: left;
+}
+.navbar-xs-list-3 {
+	float: right;
+	margin: 10px 50px 0px 0px ;
+}
+.navbar-header img {
+	width: 300px;
+}
+.upload-section h3 {
+	text-align: left;
+	margin-left: 20px;
+}
+.navbar input {
+	width: 250px;
+	margin: 50px 0px 5px 10px;
+	text-align: center;
+}
+.navbar input[type=text] {
+ 	text-align: left;
+  	padding: 6px;
+  	border: none;
+  	background-color: #E0dddd;
+  	border-radius: 20px;
+  	margin-top: 35px;
+  	margin-left: 50px;
+  	font-size: 17px;
+}
+.form {
+	height: auto;
+	max-width: 96%;
+	width: auto;
+	margin: 20px;
+	border-radius: 15px;
+	background-color: #E0ffff;
+	box-sizing: border-box;
+	z-index: auto;
+	/*display: inline-block;*/
+	line-height: normal;
+}
+.form-xs {
+	height: auto;
+	width: auto;
+	margin: 0px;
+	border-radius: 10px;
+	background-color: #E0ffff;
+	z-index: auto;
+	display: block;
+	line-height: normal;
+}
+.upload-section {
+	margin-left: 90px;
+	margin-top: 40px;
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+.upload-section-xs {
+	margin-left: 30px;
+	margin-top: 40px;
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+.upload-section img {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.bottom-image {
+	text-align: center;
+	margin-top: 50px;
+	width: auto;
+}
+.bottom-image img {
+	text-align: center;
+	max-width: 320px;
+	max-height: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.bottom-image-xs {
+	text-align: center;
+	max-width: 60px;
+	width: auto;
+}
+.bottom-image-xs img {
+	text-align: center;
+	max-width: 320px;
+	max-height: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+#btn {
+	text-align: center;
+	margin-top: 20px;
+}
+#btn .btn {
+	width: 200px;
+}
+#btn-xs {
+	margin: auto;
+	width: 100px;
+	text-align: center;
+}
+.btn-family {
+	padding: 5px;
+	margin: 10px 0px 0px 5px;
+	width: 160px;
+	border-radius: 10px;
+	max-height: 50px; 
+}
+.btn-fm-xs {
+	width: 80px;
+	margin-top: 5px;
+}
+.button-grp-upload {
+	margin: 20px 15px 0px 40px; 
+}
+.button-grp-upload .btn {
+	margin: 0px 0px 0px 2px;
+	max-width: 120px;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn-upload {
+  color: blue;
+  background-color: #E0ffff;
+  padding: 8px 10px;
+  cursor: pointer;
+  width: 200px;
+  max-height: 40px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.navbar li a {
+	margin-right: 15px;
+}
+/*******************CSS for upload.html ends here********************************************/
+/*******************CSS for signup.html begins here******************************************/
+.container-box-signup {
+	background-color: #F5FAEB;
+	width: 100%;
+	max-height:100%; 
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.container-box-signup h2 {
+	margin: 10px 0px 0px 80px;
+	color: blue;
+}
+.row-box {
+	margin: 40px 0px 5px 100px;
+	justify-content: space-around;
+}
+.row-section {
+	padding: 0px;
+	width: 100px;
+}
+.row-section h5 {
+	text-align: left;
+	font-size: 13px;
+}
+.fam-his {
+	height: 50px;
+	margin-left: 20px;
+}
+.fam-his h3 {
+	margin-left: 80px;
+	color: blue;
+}
+.container-box-login .row .fb{
+  background-color: #3B5998;
+  margin: 20px 20px 20px 50px;
+  color: white;
+}
+
+.container-box-login .row .twitter {
+  background-color: #55ACEE;
+  margin: 20px 20px 20px 50px;
+  color: white;
+}
+.container-box-login .row .google {
+  background-color: #dd4b39;
+  margin: 20px 20px 20px 50px;
+  color: white;
+}
+
+/************************CSS for login.html ******************************************/
+.container-box-login {
+	background-color: #F5FAEB;
+	width: 100%;
+	max-height:100%; 
+	margin-top: 5px;
+	border-radius: 15px;
+}
+.container-box-login h2 {
+	padding: 10px;
+}
+.nav li a {
+	max-height: 80px;
+	max-width: 120px;
+	width: auto;
+	height: auto;
+}
+.login-row-datafield {
+	width: 80%;
+}
+.check-space {
+	margin-right: 40px;
+}
+.text-login {
+	font-size: 25px;
+	width: 300px;
+	margin:10px;
+}
+.family-members {
+	padding: 10px;
+	max-width: 100%;
+	width: auto;
+}
+/*.nav .navbar-nav .navbar-right {
+	background-color: blue;
+}
+.nav-right-section {
+	margin-right: 50px auto;
+}*/
+.ul li a img {
+	width: auto;
+	max-height: 30px;
+	margin-right: 50px auto; 
+}
+.checkbox{
+	margin-top: 50px;
+}
+.checkbox label, .checkbox input[type=checkbox]{
+    margin-right:  55px;
+}
+.container-box-login form .login-button {
+	padding: 40px;
+	margin: 25px 0px 10px 30px;
+	width: 250px;
+	max-height: 40px; 
+}
+.navbar input {
+	width: 250px;
+	text-align: center;
+}
+.navbar input[type=text] {
+ 	text-align: left;
+  	padding: 6px;
+  	border: none;
+  	background-color: #E0ffff;
+  	border-radius: 20px;
+  	margin-top: 35px;
+  	margin-left: 50px;
+  	font-size: 17px;
+}

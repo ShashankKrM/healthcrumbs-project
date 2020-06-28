@@ -1,0 +1,116 @@
+.home-left {
+  width: auto;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 20px 0px 0px 20px;
+  height: 300px;
+  border: none; 
+}
+.col-md-6 img {
+  display: block;
+  width: 400px;
+  height: 400px;
+  width: 100%;
+  max-height: 100%;
+}
+.how-text {
+  text-align: center;
+  border: none;
+  margin-top: 10px;
+  width: auto;
+  height: 30px;
+}
+ul li a {
+  margin-top: 20px;
+}
+.col-md-12 img {
+  width: 400px;
+  height: 30px;
+  display: block;
+}
+.home-mid {
+  max-height: 400px;
+  height: auto;
+  border: none;
+}
+.col-md-5 img {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 200px;
+  max-height: 200px;
+  height:auto;
+  max-width: 100% 
+}
+.col-md-5 h3 {
+  padding-top: 40px; 
+}
+.banner {
+  width: 100%;
+  height: 100px; 
+}
+.banner img {
+  width: auto;
+  max-width: 100%
+  height: 100%
+  max-height: 100px;
+}
+.res {
+  width: 100%;
+  max-height:500px;
+  height: auto;   
+}
+.vert-div {
+  width: 40%;
+  max-height: 300px;
+  height: auto;
+  border: 0.5px solid black;
+  margin-left: 30px;
+  float: left;
+
+}
+.row img {
+  width: 100%;
+  height: 30%;
+  padding-bottom: 10px;
+}
+.detail-home {
+  max-width: 410px;
+  width: auto;
+  height: 300px;
+  margin-left: 40px;
+  float: left;
+  border: 1px solid black;
+}
+.left-part {
+  margin-left: 60px;
+  width: 200px;
+  float: left;
+}
+.right-part {
+  float: right;
+  width: 200px;
+  margin-left: 20px;
+}
+.footer-left {
+  float: left;
+  margin: 30px 0px 30px 50px;
+}
+.footer-right {
+  float: right;
+  margin-right: 30px 50px 30px 0px;
+}
+.home-footer {
+  background-image: url('C:\Users\Shashank Kr Mishra\Desktop\HealthCurmbs\icons\strip.svg');
+}
+.hc {
+  width: 100%;
+  margin-top: 30px;
+}
+.hc h3 {
+  float: left;
+  margin-left: 50px;
+}
+.hc button {
+  float: right;
+  margin-right: 100px;
+}
